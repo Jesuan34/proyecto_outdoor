@@ -7,13 +7,41 @@
     <meta name="viewport" content="width}, initial-scale=1.0">
     <title>Proyecto Rosin Pesca</title>
     <link rel="icon" type="imagen/png" href="imagenes/logo1.png" sizes="32x32">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
-    <header class="header">
-        <img class="header__logo" src="imagenes/logo1.png" alt="gato_egro">
+    <header class="header" class="container-fluid" style="background-color: #f1f1f1;">
+        <div class="row">
+            <div class="col-2" class="header__logo">
+                <img src="imagenes/logo1.png" alt="">
+            </div>
+            <div class="col">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active text-dark m-1" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark m-1" href="./secciones/actividades.html">Actividades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark m-1" href="./secciones/galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark m-1" href="./secciones/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark m-1" href="./secciones/nosotros.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!--
         <nav class="header__nav">
             <ul class="header__list">
                 <li class="list__item"><a href="#">Inicio</a></li>
@@ -23,52 +51,74 @@
                 <li class="list__item"><a href="./secciones/contacto.html">Contacto</a></li>
             </ul>
         </nav>
+    -->
     </header>
 
-    <main class="main">
-        <section class="main__general">
-        <div class="main__titulo">
-            <h1 class="main__titulo--grande">Blackcat Outdoors</h1>
-            <p class="main__desc">Somos una empresa joven, que sabe de actividades al aire libre. Veni a relajarte y
-                pasar un buen momento,
-                solo, con amigos o en familia.</p>
-        </div>
+    <main class="main" class="container">
+        <section class="main__general" class="row">
 
-        <div class="main__section">
-            <div class="section__rafting">
-                <h3 class="rafting__titulo">Rafting</h3>
-                <img class="rafting__img" src="./imagenes/bariloche_rafting.png" alt="raftin en bariloche">
-                <p class="rafting__desc">Diviertete recorriendo el río aguas abajo en balsa o en kayak. Disfruta esta
-                    emocionante actividad,
-                    con amigos o en familia. Animate a un contacto unico con la naturaleza.</p>
+            <div class="main__titulo" class=>
+                <h1 class="main__titulo--grande">Blackcat Outdoors</h1>
+                <p class="main__desc">Somos una empresa joven, que sabe de actividades al aire libre. Veni a relajarte y
+                    pasar un buen momento,
+                    solo, con amigos o en familia.</p>
             </div>
-            <div class="section__flotadas">
-                <h3 class="flotadas__titulo">Flotadas</h3>
-                <img class="flotadas__img" src="./imagenes/flotada_limay.png" alt="flotada río limay, nuquén">
-                <p class="flotadas__desc">Flotadas de pesca en cataraft con guias profecionales que te garantizan una
-                    vivencia unica sobre el
-                    rio. Exploraras diversas seccioens del rio en busca de ese trofeo soñado. Disfruta la pesca a lo
-                    largo y ancho del rio solo, con tu grupo de pesca.</p>
-            </div>
-            <div class="section__pesca">
-                <h3 class="pesca__titulo">Pesca</h3>
-                <img class="pesca__img" src="./imagenes/caleufu_fly_fishing.png" alt="pesca en río caleufu">
-                <p class="pesca__desc">Toma un descanso de la rutina y ven a pescar a los mejores spots. Guias
-                    profecionales te ayudaran con
-                    tu tecnica he iran en la busqueda de las mejores piezas badeando sectores exclusivos del rio.</p>
-            </div>
-        </dic>
-    </section>
+
+            <div class="main__section" class="col">
+                <div class="section__rafting">
+                    <h3 class="rafting__titulo">Rafting</h3>
+                    <img class="rafting__img" src="./imagenes/bariloche_rafting.png" alt="raftin en bariloche">
+                    <p class="rafting__desc">Diviertete recorriendo el río aguas abajo en balsa o en kayak. Disfruta
+                        esta
+                        emocionante actividad,
+                        con amigos o en familia. Animate a un contacto unico con la naturaleza.</p>
+                </div>
+                <div class="section__flotadas" class="col">
+                    <h3 class="flotadas__titulo">Flotadas</h3>
+                    <img class="flotadas__img" src="./imagenes/flotada_limay.png" alt="flotada río limay, nuquén">
+                    <p class="flotadas__desc">Flotadas de pesca en cataraft con guias profecionales que te garantizan
+                        una
+                        vivencia unica sobre el
+                        rio. Exploraras diversas seccioens del rio en busca de ese trofeo soñado. Disfruta la pesca a lo
+                        largo y ancho del rio solo, con tu grupo de pesca.</p>
+                </div>
+                <div class="section__pesca" class="col-6">
+                    <h3 class="pesca__titulo">Pesca</h3>
+                    <img class="pesca__img" src="./imagenes/caleufu_fly_fishing.png" alt="pesca en río caleufu">
+                    <p class="pesca__desc">Toma un descanso de la rutina y ven a pescar a los mejores spots. Guias
+                        profecionales te ayudaran con
+                        tu tecnica he iran en la busqueda de las mejores piezas badeando sectores exclusivos del rio.
+                    </p>
+                </div>
+                </dic>
+        </section>
     </main>
 
-    <footer class="footer">
-        <div class="footer__info">
-            <p class="info__copy">Copyright&copy;</p>
-            <a class="info__insta" href="https://www.instagram.com" target="_BLANK">Instagram</a>
-            <a class="info__face" href="https://es-la.facebook.com" target="_BLANK">Facebook</a>
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+       
+        <div class="container pt-4">
+           
+            <section class="mb-4">
+                
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.facebook.com/">Facebook</a>
+
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.twitter.com/">Twitter</a>
+
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com">Instagram</a>
+
+            </section>
+           
         </div>
+
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 Copyright
+        </div>
+       
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
