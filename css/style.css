@@ -352,13 +352,14 @@ justify-content: space-around;
 
 
 
-
+/*
 .galeria{
     display: grid;
     gap: 1rem;
     /*grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(4, 350px);
-    */
+    *
+
     grid-auto-rows: 13rem;
     grid-template-columns: repeat(auto-fill, minmax(20rem,1fr));
 }
@@ -366,11 +367,19 @@ justify-content: space-around;
 .galeria div{
     height: 120px;
     width: 300px; 
-}*/
+}*
+
 .galeria div img{
     height: 100%;
     width: 100%; 
-}*/
+}*
+
+*/
+
+div #galeria__img img{
+    height: 600px;
+    width: 300px;
+}
 
 
 
