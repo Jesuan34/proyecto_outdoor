@@ -8,8 +8,12 @@ body{
     background-color: antiquewhite
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: grid;
+    grid-template-areas: 
+     "header" "header" "header"
+     "main" "main" "main"
+     "footer" "footer" "footer";
     grid-template-rows: 1rf auto 1fr;
-    
+    max-width: 1920px;
 }   
 
 a:link{
@@ -678,21 +682,16 @@ margin: 30px
     height: 400px;
 }
 
-.main_contacto{
-    height: 100%;;
-}
 
-.contacto{
+
+
+
+.formulario__contacto{
+    margin: 2rem;
     
 }
 
-.contacto__info{
-    display: flex;
-    justify-content: space-around;       
-}
-.info__nombre{
-    justify-self: self-start;
-}
-.info__appellido{
-    justify-self: self-end;
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
 }
