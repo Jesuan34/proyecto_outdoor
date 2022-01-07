@@ -15,13 +15,13 @@
 <body>
 
     <header class="header" class="container-fluid" style="background-color: #f1f1f1;">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" class="d-flex justify-content-around">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <img src="./imagenes/logo1.png" alt="logo">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="container">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -60,18 +60,29 @@
     -->
     </header>
 
-    <main class="main" class="container">
-        <section class="main__general" class="row">
-
-            <div class="main__titulo" class=>
+    <main class="main" class="container-xxl">
+        <section class="main__general">
+            <div class="main__titulo">
                 <h1 class="main__titulo--grande">Blackcat Outdoors</h1>
                 <p class="main__desc">Somos una empresa joven, que sabe de actividades al aire libre. Veni a relajarte y
                     pasar un buen momento,
                     solo, con amigos o en familia.</p>
             </div>
 
-            <div class="main__section" class="col">
-                <div class="section__rafting">
+            <div class="main__section" class="row justify-content-around">
+                <div class="section__rafting" class="col-sm-4 col" class="card" style="width: 30vw;">
+                    <h5 class="rafting__titulo" class="card-title">Rafting</h5>
+                    <img src="./imagenes/bariloche_rafting.png" class="card-img-top" alt="raftin en bariloche">
+                    <div class="card-body">
+                        <p class="rafting__desc" class="card-text">Diviertete recorriendo el río aguas abajo en balsa o
+                            en kayak. Disfruta
+                            esta
+                            emocionante actividad,
+                            con amigos o en familia. Animate a un contacto unico con la naturaleza.</p>
+                    </div>
+                </div>
+                <!--
+                <div class="section__rafting" class="col-sm-4 col">
                     <h3 class="rafting__titulo">Rafting</h3>
                     <img class="rafting__img" src="./imagenes/bariloche_rafting.png" alt="raftin en bariloche">
                     <p class="rafting__desc">Diviertete recorriendo el río aguas abajo en balsa o en kayak. Disfruta
@@ -79,16 +90,45 @@
                         emocionante actividad,
                         con amigos o en familia. Animate a un contacto unico con la naturaleza.</p>
                 </div>
-                <div class="section__flotadas" class="col">
-                    <h3 class="flotadas__titulo">Flotadas</h3>
-                    <img class="flotadas__img" src="./imagenes/flotada_limay.png" alt="flotada río limay, nuquén">
-                    <p class="flotadas__desc">Flotadas de pesca en cataraft con guias profecionales que te garantizan
-                        una
-                        vivencia unica sobre el
-                        rio. Exploraras diversas seccioens del rio en busca de ese trofeo soñado. Disfruta la pesca a lo
-                        largo y ancho del rio solo, con tu grupo de pesca.</p>
+                -->
+                <div class="section__flotadas" class="col-sm-4 col" class="card" style="width: 30vw;">
+                    <h5 class="flotadas__titulo" class="card-title">Flotadas</h5>
+                    <img src="./imagenes/flotada_limay.png" class="card-img-top" alt="flotada río limay, nuquén">
+                    <div class="card-body">
+                        <p class="flotadas__desc">Flotadas de pesca en cataraft con guias profecionales que te
+                            garantizan
+                            una
+                            vivencia unica sobre el
+                            rio. Exploraras diversas seccioens del rio en busca de ese trofeo soñado. Disfruta la pesca
+                            a lo
+                            largo y ancho del rio solo, con tu grupo de pesca.</p>
+                    </div>
                 </div>
-                <div class="section__pesca" class="col-6">
+                <!--
+                    <div class="section__flotadas" class="col-sm-4 col">
+                        <h3 class="flotadas__titulo">Flotadas</h3>
+                        <img class="flotadas__img" src="./imagenes/flotada_limay.png" alt="flotada río limay, nuquén">
+                        <p class="flotadas__desc">Flotadas de pesca en cataraft con guias profecionales que te garantizan
+                            una
+                            vivencia unica sobre el
+                            rio. Exploraras diversas seccioens del rio en busca de ese trofeo soñado. Disfruta la pesca a lo
+                            largo y ancho del rio solo, con tu grupo de pesca.</p>
+                    </div>
+
+                -->
+                <div class="section__pesca" class="col-sm-4 col" class="card" style="width: 30vw;">
+                    <h5 class="pesca__titulo" class="card-title">Pesca</h5>
+                    <img src="./imagenes/caleufu_fly_fishing.png" class="card-img-top" alt="pesca en río caleufu">
+                    <div class="card-body">
+                        <p class="pesca__desc">Toma un descanso de la rutina y ven a pescar a los mejores spots. Guias
+                            profecionales te ayudaran con
+                            tu tecnica he iran en la busqueda de las mejores piezas badeando sectores exclusivos del
+                            rio.
+                        </p>
+                    </div>
+                </div>
+                <!--
+                <div class="section__pesca" class="col-sm-4 col">
                     <h3 class="pesca__titulo">Pesca</h3>
                     <img class="pesca__img" src="./imagenes/caleufu_fly_fishing.png" alt="pesca en río caleufu">
                     <p class="pesca__desc">Toma un descanso de la rutina y ven a pescar a los mejores spots. Guias
@@ -96,6 +136,7 @@
                         tu tecnica he iran en la busqueda de las mejores piezas badeando sectores exclusivos del rio.
                     </p>
                 </div>
+                -->
                 </dic>
         </section>
     </main>

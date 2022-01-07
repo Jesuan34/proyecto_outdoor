@@ -8,12 +8,8 @@ body{
     background-color: antiquewhite
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: grid;
-    grid-template-areas: 
-     "header" "header" "header"
-     "main" "main" "main"
-     "footer" "footer" "footer";
     grid-template-rows: 1rf auto 1fr;
-    max-width: 1920px;
+    
 }   
 
 a:link{
@@ -29,8 +25,9 @@ a{
     -ms-transition: .5s;
     -o-transition: .5s;
 }
-a:hover{
-background-color: rgb(153, 153, 255);
+a:hover{ 
+    background-color: rgb(153, 153, 255);
+
 }
 /*
 .header{
@@ -98,39 +95,18 @@ justify-content: space-around;
 }
 .main__section{
     display: grid;
-    grid-template-areas:
-    "rafting" "flotadas" "pesca";
-    gap: 1rem;
+    justify-items: center;
     grid-auto-rows: auto;
     grid-template-columns: repeat(auto-fill, minmax(24em,1fr));
-    /*
-    grid-template-columns: repeat(3,450px);
-    grid-template-rows: auto;
+    
     */
-    justify-content: space-around;    
+    justify-content: space-around;
 }
- @media screen and (min 768px){
-     .main__section{
-     
-    }
-     
- }
 
-.section__rafting{
-    grid-area: "rafting";
-    display: flex;
-    flex-direction: column;
-}
 
 .rafting__titulo{
     text-align: center;
     margin-bottom: 5px;
-}
-
-.section__flotadas{
-    grid-area: "flotadas";
-    display: flex;
-    flex-direction: column;
 }
 
 .flotadas__titulo{
@@ -138,49 +114,12 @@ justify-content: space-around;
     margin-bottom: 5px;
 }
 
-.flotadas__img{
-    height: 300px;
-}
-
-.section__pesca{
-    grid-area: "pesca";
-    display: flex;
-    flex-direction: column;
-}
-
 .pesca__titulo{
     text-align: center;
     margin-bottom: 5px;
 }
 
-.footer{
-    grid-area: "footer";
-}
-
-.footer__info{
-    background: rgb(21, 70, 21);
-    display: grid;
-    grid-template-areas: 
-    "copy" "insta" "face";
-    grid-template-columns: repeat(3, auto);
-    justify-content: space-between;
-    padding: 0px 10px;
-    
-}
-
-.info__copy{
-    grid-area: "copy";
-}
-
-.info__insta{
-    grid-area: "insta";
-}
-
-.info__face{
-    grid-area: "face";
-}
-
-
+/*
 
 
 .actividades{
