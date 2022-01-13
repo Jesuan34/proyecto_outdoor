@@ -1,0 +1,223 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 1920px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  border-radius: 10%;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+
+a:hover {
+  background-color: #9999ff;
+}
+
+.main {
+  grid-area: "main";
+  padding: 10px;
+}
+
+.main .main__titulo--grande {
+  text-align: center;
+  margin: 10px;
+}
+
+.main .main__desc {
+  text-align: left;
+  margin: 1rem;
+}
+
+.main .main__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main .main__section .section__rafting {
+  width: 420px;
+  height: 600px;
+}
+
+.main .main__section .section__rafting .rafting__titulo {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.main .main__section .section__flotadas {
+  width: 420px;
+  height: 600px;
+}
+
+.main .main__section .section__flotadas .flotadas__titulo {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.main .main__section .section__pesca {
+  width: 420px;
+  height: 600px;
+}
+
+.main .main__section .section__pesca .pesca__titulo {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+}
+
+.actividades {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.actividades .actividades__titulo {
+  text-align: center;
+}
+
+.actividades .actividades__rafting--titulo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.actividades .rafting__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div #galeria__img img {
+  height: 400px;
+}
+
+.nosotros__empresa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nosotros__empresa .nosotros__empresa--titulo {
+  color: tomato;
+  margin: 30px;
+}
+
+.nosotros__empresa .empresa__img {
+  margin: 20px;
+}
+
+.nosotros__empresa .empresa__img--desc {
+  text-align: justify;
+  margin: 30px;
+}
+
+.nosotros__empresa .nosotros__empresa--1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nosotros__equipo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+  /*
+        .nosotros__equipo--1{
+            width: 300px;
+            height: 400px;
+        }
+        .nosotros__equipo--2{
+            width: 300px;
+            height: 400px;
+        }
+        .nosotros__equipo--3{
+            width: 300px;
+            height: 400px;
+        }
+        */
+}
+
+.nosotros__equipo .nosotros__equipo--titulo {
+  color: tomato;
+  margin: 30px;
+}
+
+.nosotros__equipo .todos__nosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 60px;
+}
+
+.nosotros__equipo .equipo__desc {
+  text-align: justify;
+}
+
+.formulario__contacto {
+  margin: 2rem;
+}
+
+.bigicon {
+  font-size: 35px;
+  color: #36A0FF;
+}
+/*# sourceMappingURL=main.css.map */
