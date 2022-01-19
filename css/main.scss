@@ -1,16 +1,4 @@
-<<<<<<< HEAD
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
 
-body{
-    background-color: whitesmoke;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    max-width: 1920px;
-}   
-=======
 @import "../parciales/header";
 @import "../parciales/main";
 @import "../parciales/footer";
@@ -22,15 +10,10 @@ body{
 @import "../parciales/mixin";
 
 
->>>>>>> entregaSass
-
 a:link{
     text-decoration:none;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> entregaSass
 li{
     list-style: none;
 }
@@ -46,172 +29,13 @@ a{
     -ms-border-radius: 10%;
     -o-border-radius: 10%;
 }
-a:hover{ 
-<<<<<<< HEAD
+a:hover{
     background-color: rgb(153, 153, 255);
 
 }
 
 
-
-
-.main{
-    grid-area: "main";
-    padding: 10px;
-   
-         .main__titulo--grande{
-        text-align: center;
-        margin: 10px;    
-        }
-    
-        .main__desc{
-        text-align: left;
-        margin: 1rem;    
-        }
-    
-        .main__section{
-        display: flex;
-        justify-items: center;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-
-            .section__rafting{
-            width: 420px;
-            height: 600px;
-                .rafting__titulo{
-                text-align: center;
-                margin-bottom: 5px;
-                }
-            }
-        
-        
-            .section__flotadas{
-            width: 420px;
-            height: 600px;
-                .flotadas__titulo{
-                text-align: center;
-                margin-bottom: 5px;
-                }
-            }
-        
-        
-            .section__pesca{
-            width: 420px;
-            height: 600px;
-                .pesca__titulo{
-                text-align: center;
-                margin-bottom: 5px;
-                }            
-            }
-        
-        }
-}
-
-
-
 iframe{
     width: 100%;
     height: auto;
-}
-
-.actividades{
-    display: flex;
-    justify-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-        .actividades__titulo{
-            text-align: center;
-        }
-        .actividades__rafting--titulo{
-            text-align: center;
-            margin-bottom: 10px;
-        }
-        .rafting__info{
-            display: flex;
-            justify-items: center;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
-        }
-}
-
-div #galeria__img img{
-    height: 400px;
-    
-}
-
-.nosotros__empresa{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.nosotros__empresa--titulo{
-    color: tomato;
-    margin: 30px;
-}
-
-.empresa__img{
-    margin: 20px;
-}
-
-.empresa__img--desc{
-    text-align: justify;
-    margin: 30px;
-}
-
-.nosotros__empresa--1{
-    display: flex;
-}
-
-.nosotros__equipo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-}
-
-.nosotros__equipo--titulo{
-color: tomato;
-margin: 30px
-}
-
-.todos__nosotros{
-    display: flex;
-    padding: 60px;
-}
-.equipo__desc{
-    text-align: justify;
-}
-
-.nosotros__equipo--1{
-    width: 300px;
-    height: 400px;
-}
-.nosotros__equipo--2{
-    width: 300px;
-    height: 400px;
-}
-.nosotros__equipo--3{
-    width: 300px;
-    height: 400px;
-}
-
-
-
-.formulario__contacto{
-    margin: 2rem;
-    
-}
-
-.bigicon {
-    font-size: 35px;
-    color: #36A0FF;
-=======
-    @include bgColorhover
-
-}
-
-iframe{
-    width: 100%;
-    height: auto;
->>>>>>> entregaSass
 }
