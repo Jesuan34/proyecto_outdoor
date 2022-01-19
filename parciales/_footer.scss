@@ -1,0 +1,15 @@
+@import "./mixin";
+
+$redes:(
+    facebook: rgb(153, 153, 255),
+    twitter: red,
+    instagram: yellow
+); 
+
+@each $red, $color in $redes {
+    .btn--#{$red} {
+        background-color: $color;
+    }
+}
+
+

@@ -6,13 +6,14 @@
 @import "../parciales/galeria";
 @import "../parciales/nosotros"; 
 @import "../parciales/contacto";
+@import "../parciales/mixin";
 
 
- 
 
 a:link{
     text-decoration:none;
 }
+
 li{
     list-style: none;
 }
@@ -29,7 +30,7 @@ a{
     -o-border-radius: 10%;
 }
 a:hover{ 
-    background-color: rgb(153, 153, 255);
+    @include bgColorhover
 
 }
 
