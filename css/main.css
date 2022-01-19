@@ -53,8 +53,7 @@ body {
 }
 
 .main__section .section__rafting {
-  display: inline-block;
-  width: 420px;
+  width: 320px;
   height: 600px;
 }
 
@@ -65,8 +64,7 @@ body {
 }
 
 .main__section .section__flotadas {
-  display: inline-block;
-  width: 420px;
+  width: 320px;
   height: 600px;
 }
 
@@ -77,8 +75,7 @@ body {
 }
 
 .main__section .section__pesca {
-  display: inline-block;
-  width: 420px;
+  width: 320px;
   height: 600px;
 }
 
