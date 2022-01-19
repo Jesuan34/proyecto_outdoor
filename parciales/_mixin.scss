@@ -1,0 +1,15 @@
+@mixin tamañoContenedor {
+    width: 420px;
+    height: 600px;
+}
+
+@mixin alignContenido ($align, $margin, $marginBottom) {
+    text-align: $align;
+    margin: $margin;
+    margin-bottom: $marginBottom;
+}
+
+@mixin estiloTitulo {
+    color: tomato;
+    margin: 30px;
+}
