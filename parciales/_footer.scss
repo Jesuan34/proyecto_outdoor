@@ -1,13 +1,11 @@
-@import "./mixin";
-
 $redes:(
-    facebook: rgb(153, 153, 255),
-    twitter: red,
-    instagram: yellow
+    rafting: blue,
+    flotadas: red,
+    pesca: yellow
 ); 
 
-@each $red, $color in $redes {
-    .btn--#{$red} {
+@each $actividades, $color in $redes {
+    .btn--#{$actividades} {
         background-color: $color;
     }
 }
