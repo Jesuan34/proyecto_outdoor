@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0px;
     padding: 0px;
@@ -9,10 +10,27 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     max-width: 1920px;
 }   
+=======
+@import "../parciales/header";
+@import "../parciales/main";
+@import "../parciales/footer";
+@import "../parciales/inicio";
+@import "../parciales/actividades";
+@import "../parciales/galeria";
+@import "../parciales/nosotros"; 
+@import "../parciales/contacto";
+@import "../parciales/mixin";
+
+
+>>>>>>> entregaSass
 
 a:link{
     text-decoration:none;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> entregaSass
 li{
     list-style: none;
 }
@@ -29,6 +47,7 @@ a{
     -o-border-radius: 10%;
 }
 a:hover{ 
+<<<<<<< HEAD
     background-color: rgb(153, 153, 255);
 
 }
@@ -186,4 +205,13 @@ margin: 30px
 .bigicon {
     font-size: 35px;
     color: #36A0FF;
+=======
+    @include bgColorhover
+
+}
+
+iframe{
+    width: 100%;
+    height: auto;
+>>>>>>> entregaSass
 }

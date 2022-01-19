@@ -2,10 +2,12 @@
 <html lang="en">
 
 <head>
+    <meta name="descrition" content="Actividades Outdoor">
+    <meta name="keywords" content="ACTIVIDADES, FLOTADAS, PESCA, AVENTURA, KAYAK">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width}, initial-scale=1.0">
-    <title>Proyecto Rosin Pesca</title>
+    <title>Blackcat Outdoors Actividades</title>
     <link rel="shortcut icon" href="../imagenes/logo1.png" type="image/png" sizes="32x32">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -14,33 +16,37 @@
 
 <body>
     <header class="header" class="container-fluid" style="background-color: #f1f1f1;">
-        <div class="row">
-            <div class="col-2" class="header__logo">
-                <img src="../imagenes/logo1.png" alt="">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" class="d-flex justify-content-around">
+            <img src="../imagenes/logo1.png" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Actividades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                </div>
             </div>
-            <div class="col">
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active text-dark m-1" aria-current="page" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark m-1" href="#">Actividades</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark m-1" href="galeria.html">Galeria</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark m-1" href="nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark m-1" href="contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        </nav>
 
     </header>
-<!---
+    <!---
     <header class="header">
         <img class="header__logo" src="../imagenes/logo1.png" alt="gato_negro">
         <nav class="header__nav">
@@ -56,53 +62,76 @@
 -->
 
     <main class="main">
-         <section class="actividades">
-            <h1 class="actividades__titulo">Nuestras Propuestas</h1>
+        <section class="actividades" class="container">
+            <div class="row justify-content-center">
+                <h1 class="actividades__titulo">Nuestras Propuestas</h1>
+            </div>
             <div class="actividades__rafting">
                 <h3 class="actividades__rafting--titulo">Raftin y Kayaking</h3>
-                <div class="actividades__rafting--info">
-                    <div class="rafting__info--img">
-                        <img class="info__rafting--img" src="../imagenes/kayaking.png" alt="">
-                        <p class="rafting__img--desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
-                            asperiores
-                            ab
-                            culpa tempora deserunt explicabo reiciendis praesentium nobis quos officiis!</p>
+                <div class="row justify-content-around" id="">
+                    <div class="col col-sm" class="rafting__info" class="card" style="width: 40vw;">
+                        <img src="../imagenes/kayaking.png" class="card-img-top" alt="kayaking">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
                     </div>
-                    <div class="rafting__info--vid">
-                        <iframe class="info__rafting--vid" width="560" height="315"
-                            src="https://www.youtube.com/embed/N7Q0opnGx3g" title="YouTube video player" frameborder="0"
+                    <div class="col col-sm" class="card" style="width: 40vw;">
+                        <iframe src="https://www.youtube.com/embed/N7Q0opnGx3g" title="YouTube video player"
+                            frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
-                        <p class="rafting__vid--desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-                            voluptate,
-                            expedita libero provident perspiciatis reiciendis impedit vitae omnis quod praesentium!</p>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="actividades__flotadas">
                 <h3 class="actividades__flotadas--titulo">Flotadas</h3>
-                <div class="actividades__flotadas--info">
-                    <div class="flotadas__info--img">
-                        <img class="info__flotadas--img" src="../imagenes/flotada_limay.png" alt="">
-                        <p class="flotadas__img--desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            Perferendis
-                            consequuntur temporibus voluptate a alias aut laborum ad ducimus ab assumenda.</p>
+                <div class="row justify-content-around" class="flotadas__info">
+                    <div class="col-sm-6 col" class="card" style="width: 40vw;">
+                        <img src="../imagenes/flotada_limay.png" class="card-img-top" alt="flotada en rio limay">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
                     </div>
-                    <div class="flotadas__info--vid">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/eNhDHgTbncc"
+                    <div class="col-sm-6 col" class="card" style="width: 40vw;">
+                        <iframe class="card-img-top" src="https://www.youtube.com/embed/eNhDHgTbncc"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
-                        <p class="flotadas__vid--desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-                            facere
-                            earum
-                            assumenda repellendus deleniti aut non iste voluptate accusamus aliquam?</p>
+                        <div class="card-body">
+                            <p class="flotadas__vid--desc" class="card-text">Some quick example text to build on the
+                                card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="actividades__trekking">
                 <h3 class="actividades__trekking--titulo">Trekking y Senderismo</h3>
-                <div class="actividades__trekking--info">
+                <div class="row justify-content-around"" class=" trekking__info">
+                    <div class="col-sm-6 col" class="card" style="width: 40vw;">
+                        <img src="../imagenes/trekking.png" class="card-img-top" alt="trekking por bariloche">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col" class="card" style="width: 40vw;">
+                        <iframe class="card-img-top" src="https://www.youtube.com/embed/i58XqEtJqdQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <!--
                     <div class="trekking__info--img">
                         <img class="info__trekking--img" src="../imagenes/trekking.png" alt="">
                         <p class="trekking__img--desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -118,11 +147,34 @@
                             Voluptates
                             dignissimos a cupiditate tempora eius eligendi, rem totam nam fugit ad!</p>
                     </div>
+                   -->
+
                 </div>
             </div>
             <div class="actividades__pesca">
                 <h3 class="actividades__pesca--titulo">Pesca</h3>
-                <div class="actividades__trekking--info">
+                <div class="row justify-content-around"" class=" pesca__info">
+                    <div class="col-sm-6 col" class="card" style="width: 40vw;">
+                        <img src="../imagenes/caleufu_fly_fishing.png" class="card-img-top" alt="pesca con mosca">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the
+                                card's content.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col" class="card" style="width: 40vw;">
+                        <iframe class="card-img-top" src="https://www.youtube.com/embed/h-YW-azLGKY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the
+                                card's content.</p>
+                        </div>
+                    </div>
+
+                    <!--
                     <div class="pesca__info--img">
                         <img class="info__pesca--img" src="../imagenes/caleufu_fly_fishing.jpg" alt="">
                         <p class="pesca__img--desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
@@ -137,6 +189,27 @@
                         <p class="pesca__vid--desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
                             ratione,
                             inventore quas eligendi aliquam adipisci hic corporis? Nobis, porro est!</p>
+                    </div>
+                    -->
+                </div>
+            </div>
+
+            <div class="actividades__escuela">
+                <h3 class="actividades__escuela--titulo">Escuela</h3>
+                <div class="row justify-content-around" class="actividades__escuela--info">
+                    <div class="col-sm-6 col" class="escuela__img" class="card" style="width: 40vw;">
+                        <img src="../imagenes/esc_kayak.png" class="card-img-top" alt="aprendiendo kayaking">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col" class="escueña__img" class="card" style="width: 40vw;">
+                        <img src="../imagenes/esc_pesca.png" class="card-img-top" alt="aprendiendo pesca con mosca">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -154,15 +227,15 @@
             <img class="escuela__fly--img" src="../imagenes/esc_pesca.jpg" alt="">
         </div>-->
         </section>
-    
+
     </main>
 
     <footer class="text-center text-white" style="background-color: #f1f1f1;">
-       
+
         <div class="container pt-4">
-           
+
             <section class="mb-4">
-                
+
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.facebook.com/">Facebook</a>
 
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.twitter.com/">Twitter</a>
@@ -170,13 +243,13 @@
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com">Instagram</a>
 
             </section>
-           
+
         </div>
 
         <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
             © 2021 Copyright
         </div>
-       
+
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

@@ -1,0 +1,19 @@
+.actividades{
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+        .actividades__titulo{
+            text-align: center;
+        }
+        .actividades__rafting--titulo{
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .rafting__info{
+            display: flex;
+            justify-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+}

@@ -1,0 +1,43 @@
+@import "./mixin";
+
+.main__titulo--grande{
+    @include alignContenido (center, 10px, 0px)   
+    }
+
+    .main__desc{
+        @include alignContenido (left, 1rem, px)  
+    }
+
+    .main__section{
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+        .section__rafting{
+            @include tamañoContenedor();
+                       
+            .rafting__titulo{
+                @include alignContenido (center, 0px, 5px)
+            }
+        }
+    
+    
+        .section__flotadas{
+            @include tamañoContenedor();
+
+            .flotadas__titulo{
+                @include alignContenido (center, 0px, 5px)
+            }
+        }
+    
+    
+        .section__pesca{
+            @include tamañoContenedor();
+
+            .pesca__titulo{
+                @include alignContenido (center, 0px, 5px)
+            }            
+        }
+    
+    }

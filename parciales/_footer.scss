@@ -1,0 +1,13 @@
+$redes:(
+    rafting: blue,
+    flotadas: red,
+    pesca: yellow
+); 
+
+@each $actividades, $color in $redes {
+    .btn--#{$actividades} {
+        background-color: $color;
+    }
+}
+
+

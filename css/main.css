@@ -11,6 +11,7 @@ body {
   max-width: 1920px;
 }
 
+<<<<<<< HEAD
 a:link {
   text-decoration: none;
 }
@@ -36,11 +37,14 @@ a:hover {
   background-color: #9999ff;
 }
 
+=======
+>>>>>>> entregaSass
 .main {
   grid-area: "main";
   padding: 10px;
 }
 
+<<<<<<< HEAD
 .main .main__titulo--grande {
   text-align: center;
   margin: 10px;
@@ -52,6 +56,33 @@ a:hover {
 }
 
 .main .main__section {
+=======
+.btn--rafting {
+  background-color: blue;
+}
+
+.btn--flotadas {
+  background-color: red;
+}
+
+.btn--pesca {
+  background-color: yellow;
+}
+
+.main__titulo--grande {
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+.main__desc {
+  text-align: left;
+  margin: 1rem;
+  margin-bottom: px;
+}
+
+.main__section {
+>>>>>>> entregaSass
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,31 +94,56 @@ a:hover {
       flex-wrap: wrap;
 }
 
+<<<<<<< HEAD
 .main .main__section .section__rafting {
+=======
+.main__section .section__rafting {
+>>>>>>> entregaSass
   width: 420px;
   height: 600px;
 }
 
+<<<<<<< HEAD
 .main .main__section .section__rafting .rafting__titulo {
   text-align: center;
   margin-bottom: 5px;
 }
 
 .main .main__section .section__flotadas {
+=======
+.main__section .section__rafting .rafting__titulo {
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.main__section .section__flotadas {
+>>>>>>> entregaSass
   width: 420px;
   height: 600px;
 }
 
+<<<<<<< HEAD
 .main .main__section .section__flotadas .flotadas__titulo {
   text-align: center;
   margin-bottom: 5px;
 }
 
 .main .main__section .section__pesca {
+=======
+.main__section .section__flotadas .flotadas__titulo {
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.main__section .section__pesca {
+>>>>>>> entregaSass
   width: 420px;
   height: 600px;
 }
 
+<<<<<<< HEAD
 .main .main__section .section__pesca .pesca__titulo {
   text-align: center;
   margin-bottom: 5px;
@@ -98,6 +154,14 @@ iframe {
   height: auto;
 }
 
+=======
+.main__section .section__pesca .pesca__titulo {
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+>>>>>>> entregaSass
 .actividades {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -135,7 +199,11 @@ div #galeria__img img {
   height: 400px;
 }
 
+<<<<<<< HEAD
 .nosotros__empresa {
+=======
+.nosotros__empresa, .nosotros__equipo {
+>>>>>>> entregaSass
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -148,27 +216,44 @@ div #galeria__img img {
           align-items: center;
 }
 
+<<<<<<< HEAD
 .nosotros__empresa--titulo {
+=======
+.nosotros__empresa .nosotros__empresa--titulo, .nosotros__equipo .nosotros__empresa--titulo {
+>>>>>>> entregaSass
   color: tomato;
   margin: 30px;
 }
 
+<<<<<<< HEAD
 .empresa__img {
   margin: 20px;
 }
 
 .empresa__img--desc {
+=======
+.nosotros__empresa .empresa__img, .nosotros__equipo .empresa__img {
+  margin: 20px;
+}
+
+.nosotros__empresa .empresa__img--desc, .nosotros__equipo .empresa__img--desc {
+>>>>>>> entregaSass
   text-align: justify;
   margin: 30px;
 }
 
+<<<<<<< HEAD
 .nosotros__empresa--1 {
+=======
+.nosotros__empresa .nosotros__empresa--1, .nosotros__equipo .nosotros__empresa--1 {
+>>>>>>> entregaSass
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .nosotros__equipo {
+<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -183,17 +268,42 @@ div #galeria__img img {
 }
 
 .nosotros__equipo--titulo {
+=======
+  margin: 20px;
+  /*
+        .nosotros__equipo--1{
+            width: 300px;
+            height: 400px;
+        }
+        .nosotros__equipo--2{
+            width: 300px;
+            height: 400px;
+        }
+        .nosotros__equipo--3{
+            width: 300px;
+            height: 400px;
+        }
+        */
+}
+
+.nosotros__equipo .nosotros__equipo--titulo {
+>>>>>>> entregaSass
   color: tomato;
   margin: 30px;
 }
 
+<<<<<<< HEAD
 .todos__nosotros {
+=======
+.nosotros__equipo .todos__nosotros {
+>>>>>>> entregaSass
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 60px;
 }
 
+<<<<<<< HEAD
 .equipo__desc {
   text-align: justify;
 }
@@ -213,6 +323,12 @@ div #galeria__img img {
   height: 400px;
 }
 
+=======
+.nosotros__equipo .equipo__desc {
+  text-align: justify;
+}
+
+>>>>>>> entregaSass
 .formulario__contacto {
   margin: 2rem;
 }
@@ -221,4 +337,37 @@ div #galeria__img img {
   font-size: 35px;
   color: #36A0FF;
 }
+<<<<<<< HEAD
+=======
+
+a:link {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  border-radius: 10%;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+
+a:hover {
+  background-color: #9999ff;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+}
+>>>>>>> entregaSass
 /*# sourceMappingURL=main.css.map */
