@@ -16,25 +16,27 @@
 
 <body>
 
-    <header class="header" class="container-fluid" style="background-color: #f1f1f1;">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" class="d-flex justify-content-around">
-            <img src="../imagenes/logo1.png" alt="logo">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="container">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <header class="container-fluid header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid header__nav">
+                <span class="navbar-brand">
+                    <img src="../imagenes/logo1.png" width="40px" alt="">
+                </span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                            <a class="nav-link" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="actividades.html">Actividades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Galeria</a>
+                            <a class="nav-link active" aria-current="page" href="#">Galeria</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="nosotros.html">Nosotros</a>
@@ -50,69 +52,100 @@
 
     <main class="main">
         <div class="container">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                        aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                        aria-label="Slide 5"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
-                        aria-label="Slide 6"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
-                        aria-label="Slide 7"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
-                        aria-label="Slide 8"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
-                        aria-label="Slide 9"></button>
-                </div>
-                <div class="carousel-inner" id="galeria__img">
+
+            <div id="carouselExampleFade" class="carousel slide carousel-fade row" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
                     <div class="carousel-item active">
-                        <img src="../imagenes/esc_kayak.png" class="d-block w-100" alt="kayaking">
+                        <img src="../imagenes/bariloche.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="../imagenes/trekking.png" class="d-block w-100" alt="trekking">
+                        <img src="../imagenes/trekking.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="../imagenes/bariloche.png" class="d-block w-100" alt="bariloche">
+                        <img src="../imagenes/esc_kayak.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="../imagenes/meliquina_rio_1.png" class="d-block w-100" alt="rio meliquina_1">
+                        <img src="../imagenes/meliquina_rio_1.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="../imagenes/meliquina_rio.png" class="d-block w-100" alt="rio meliquina">
+                        <img src="../imagenes/meliquina_rio.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="../imagenes/esc_pesca.png" class="d-block w-100" alt="aprendiendo pesca con mosca">
+                        <img src="../imagenes/esc_pesca.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="../imagenes/rio_caleufu.png" class="d-block w-100" alt="rio caleufu">
+                        <img src="../imagenes/rio_caleufu.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="../imagenes/valle_encantado.png" class="d-block w-100" alt="valle encantado">
+                        <img src="../imagenes/valle_encantado.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="../imagenes/flotada_limay.png" class="d-block w-100" alt="flotada rio limay">
+                        <img src="../imagenes/flotada_limay.png" class="d-block w-100" alt="...">
                     </div>
+
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+
+                <div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
             </div>
 
+            <!--
+            <div class="carousel-inner vh-auto vw-auto" id="galeria__img">
+                <div class="carousel-item active">
+                    <img src="../imagenes/esc_kayak.png" class="d-block w-100" alt="kayaking">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/trekking.png" class="d-block w-100" alt="trekking">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/bariloche.png" class="d-block w-100" alt="bariloche">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/meliquina_rio_1.png" class="d-block w-100" alt="rio meliquina_1">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/meliquina_rio.png" class="d-block w-100" alt="rio meliquina">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/esc_pesca.png" class="d-block w-100" alt="aprendiendo pesca con mosca">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/rio_caleufu.png" class="d-block w-100" alt="rio caleufu">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/valle_encantado.png" class="d-block w-100" alt="valle encantado">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imagenes/flotada_limay.png" class="d-block w-100" alt="flotada rio limay">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
+-->
+
+
+        
 
         <!--
         <section class="galeria">
@@ -150,23 +183,24 @@
        -->
     </main>
 
-    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+    <footer class="text-center text-dark footer">
 
         <div class="container pt-4">
 
             <section class="mb-4">
 
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.facebook.com/">Facebook</a>
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://www.facebook.com/">Facebook</a>
 
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.twitter.com/">Twitter</a>
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://www.twitter.com/">Twitter</a>
 
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com">Instagram</a>
+                <a class="btn btn-link btn-floating btn-lg text-white m-1"
+                    href="https://www.instagram.com">Instagram</a>
 
             </section>
 
         </div>
 
-        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div class="text-center text-white p-3">
             © 2021 Copyright
         </div>
 

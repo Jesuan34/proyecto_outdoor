@@ -15,22 +15,24 @@
 </head>
 
 <body>
-    <header class="header" class="container-fluid" style="background-color: #f1f1f1;">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" class="d-flex justify-content-around">
-            <img src="../imagenes/logo1.png" alt="logo">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="container">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <header class="container-fluid header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid header__nav">
+                <span class="navbar-brand">
+                    <img src="../imagenes/logo1.png" width="40px" alt="">
+                </span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                            <a class="nav-link" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Actividades</a>
+                            <a class="nav-link active" aria-current="page" href="#">Actividades</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="galeria.html">Galeria</a>
@@ -61,8 +63,214 @@
     </header>
 -->
 
-    <main class="main">
+    <main class="container main">
+        <div class="main__act">
+
+            <h1 class="text-center text-black my-5 act__titulo">Nuestras Propuestas</h1>
+
+            <div class="act__articulo">
+
+                <div class="container-fluid my-2 text-black act__ribbon">
+                    
+                    <div class="container w-50">
+
+                        <div class="row ">
+
+                            <article class="col-sm text-center">
+                                <h2 class="ribbon__titulo--act">
+                                    promocionsdkjfdsjfds
+                                </h2>
+                                <p class="ribbon__desc--act">
+                                    Bienvenido a la pinchila mocha. Aqui podras ver todas las pinchilas que desees y mucho
+                                    mas!!!
+                                </p>    
+                            </article>
+
+                        </div>
+    
+                    </div>
+
+                </div>
+
+            </div>
+
+            <h3 class="text-center text-black cards__titulo">Raftin y Kayaking</h3>
+
+            <section class="d-flex flex-column flex-sm-row justify-content-around vh-auto my-3 act__cards">
+
+                <div class="col col-sm-6 mx-2 card">
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestias, non ab illo culpa
+                        eos
+                        consequuntur deserunt quos hic incidunt. Ea alias quas, est soluta ad voluptatibus assumenda!
+                        Mollitia
+                        dicta optio deserunt vero cum. Quo doloremque pariatur error dolorum quos?</p>
+                    <picture>
+                        <img src="../imagenes/kayaking.png" class="img-thumbnail" alt="kayaking">
+                    </picture>
+
+                </div>
+
+                <div class="col col-sm-6 mx-2 card">
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestias, non ab illo culpa
+                        eos
+                        consequuntur deserunt quos hic incidunt. Ea alias quas, est soluta ad voluptatibus assumenda!
+                        Mollitia
+                        dicta optio deserunt vero cum. Quo doloremque pariatur error dolorum quos?</p>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/N7Q0opnGx3g"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+
+                </div>
+
+            </section>
+
+            <h3 class="text-center text-black cards__titulo">Flotadas</h3>
+
+            <section class="d-flex flex-column flex-sm-row justify-content-around vh-auto my-3 act__cards">
+
+                <div class="col col-sm-6 mx-2 card">
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestias, non ab illo culpa
+                        eos
+                        consequuntur deserunt quos hic incidunt. Ea alias quas, est soluta ad voluptatibus assumenda!
+                        Mollitia
+                        dicta optio deserunt vero cum. Quo doloremque pariatur error dolorum quos?</p>
+                    <picture>
+                        <img src="../imagenes/flotada_limay.png" class="img-thumbnail" alt="Flotada en rio limay">
+                    </picture>
+
+                </div>
+
+                <div class="col col-sm-6 mx-2 card">
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestias, non ab illo culpa
+                        eos
+                        consequuntur deserunt quos hic incidunt. Ea alias quas, est soluta ad voluptatibus assumenda!
+                        Mollitia
+                        dicta optio deserunt vero cum. Quo doloremque pariatur error dolorum quos?</p>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/eNhDHgTbncc"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+
+                </div>
+
+            </section>
+
+            <h3 class="text-center text-black cards__titulo">Trekking y Senderismo</h3>
+
+            <section class=" d-flex flex-column flex-sm-row justify-content-around vh-auto my-3 act__cards">
+
+                <div class="col col-sm-6 mx-2 card">
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestias, non ab illo culpa
+                        eos
+                        consequuntur deserunt quos hic incidunt. Ea alias quas, est soluta ad voluptatibus assumenda!
+                        Mollitia
+                        dicta optio deserunt vero cum. Quo doloremque pariatur error dolorum quos?</p>
+                    <picture>
+                        <img src="../imagenes/trekking.png" class="img-thumbnail" alt="trekking por bariloche">
+                    </picture>
+
+                </div>
+
+                <div class="col col-sm-6 mx-2 card">
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestias, non ab illo culpa
+                        eos
+                        consequuntur deserunt quos hic incidunt. Ea alias quas, est soluta ad voluptatibus assumenda!
+                        Mollitia
+                        dicta optio deserunt vero cum. Quo doloremque pariatur error dolorum quos?</p>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/i58XqEtJqdQ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+
+                </div>
+
+            </section>
+
+            <h3 class="text-center text-black cards__titulo">Pesca</h3>
+
+            <section class=" d-flex flex-column flex-sm-row justify-content-around vh-auto my-3 act__cards">
+
+                <div class="col col-sm-6 mx-2 card">
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestias, non ab illo culpa
+                        eos
+                        consequuntur deserunt quos hic incidunt. Ea alias quas, est soluta ad voluptatibus assumenda!
+                        Mollitia
+                        dicta optio deserunt vero cum. Quo doloremque pariatur error dolorum quos?</p>
+                    <picture>
+                        <img src="../imagenes/caleufu_fly_fishing.png" class="img-thumbnail" alt="Pesca con mosca">
+                    </picture>
+
+                </div>
+
+                <div class="col col-sm-6 mx-2 card">
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestias, non ab illo culpa
+                        eos
+                        consequuntur deserunt quos hic incidunt. Ea alias quas, est soluta ad voluptatibus assumenda!
+                        Mollitia
+                        dicta optio deserunt vero cum. Quo doloremque pariatur error dolorum quos?</p>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/h-YW-azLGKY"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+
+                </div>
+
+            </section>
+
+            <h3 class="text-center text-black cards__titulo">Escuela</h3>
+
+            <section class=" d-flex flex-column flex-sm-row justify-content-around vh-auto my-3 act__cards">
+
+                <div class="col col-sm-6 mx-2 card">
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestias, non ab illo culpa
+                        eos
+                        consequuntur deserunt quos hic incidunt. Ea alias quas, est soluta ad voluptatibus assumenda!
+                        Mollitia
+                        dicta optio deserunt vero cum. Quo doloremque pariatur error dolorum quos?</p>
+                    <picture>
+                        <img src="../imagenes/esc_kayak.png" class="img-thumbnail" alt="Aprendiendo kayak">
+                    </picture>
+
+                </div>
+
+                <div class="col col-sm-6 mx-2 card">
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestias, non ab illo culpa
+                        eos
+                        consequuntur deserunt quos hic incidunt. Ea alias quas, est soluta ad voluptatibus assumenda!
+                        Mollitia
+                        dicta optio deserunt vero cum. Quo doloremque pariatur error dolorum quos?</p>
+
+                    <picture>
+                        <img src="../imagenes/esc_pesca.png" class="img-thumbnail" alt="Aprendiendo pesca con mosca">
+                    </picture>
+
+                </div>
+
+            </section>
+
+
+        </div>
         <section class="actividades" class="container">
+            <!--
             <div class="row justify-content-center">
                 <h1 class="actividades__titulo">Nuestras Propuestas</h1>
             </div>
@@ -87,7 +295,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>        
+         -->
+            <!--
             <div class="actividades__flotadas">
                 <h3 class="actividades__flotadas--titulo">Flotadas</h3>
                 <div class="row justify-content-around" class="flotadas__info">
@@ -111,6 +321,8 @@
                     </div>
                 </div>
             </div>
+           -->
+            <!--
             <div class="actividades__trekking">
                 <h3 class="actividades__trekking--titulo">Trekking y Senderismo</h3>
                 <div class="row justify-content-around"" class=" trekking__info">
@@ -131,7 +343,9 @@
                                 bulk of the card's content.</p>
                         </div>
                     </div>
-                    <!--
+            
+
+            
                     <div class="trekking__info--img">
                         <img class="info__trekking--img" src="../imagenes/trekking.png" alt="">
                         <p class="trekking__img--desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -147,11 +361,11 @@
                             Voluptates
                             dignissimos a cupiditate tempora eius eligendi, rem totam nam fugit ad!</p>
                     </div>
-                   -->
-
-                </div>
+                    </div>
             </div>
-            <div class="actividades__pesca">
+             -->
+            <!--
+                <div class="actividades__pesca">
                 <h3 class="actividades__pesca--titulo">Pesca</h3>
                 <div class="row justify-content-around"" class=" pesca__info">
                     <div class="col-sm-6 col" class="card" style="width: 40vw;">
@@ -174,7 +388,7 @@
                         </div>
                     </div>
 
-                    <!--
+                    <
                     <div class="pesca__info--img">
                         <img class="info__pesca--img" src="../imagenes/caleufu_fly_fishing.jpg" alt="">
                         <p class="pesca__img--desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
@@ -190,11 +404,11 @@
                             ratione,
                             inventore quas eligendi aliquam adipisci hic corporis? Nobis, porro est!</p>
                     </div>
-                    -->
                 </div>
-            </div>
-
-            <div class="actividades__escuela">
+            </div> 
+            -->
+            <!--
+                <div class="actividades__escuela">
                 <h3 class="actividades__escuela--titulo">Escuela</h3>
                 <div class="row justify-content-around" class="actividades__escuela--info">
                     <div class="col-sm-6 col" class="escuela__img" class="card" style="width: 40vw;">
@@ -214,7 +428,7 @@
                 </div>
             </div>
 
-            <!--</div>
+            <</div>
              <div class="actividades__escuela">
             <h2 class="actividades__escuela--titulo">Escuela</h2>
             <p class="escuela__kayak--des">Es una escuela orientada a peronas principiantes en la actividad siendo el
@@ -225,28 +439,30 @@
             <img class="escuela_kayak--img" src="../imagenes/esc_kayak.jpg" alt="">
             <h3>Escuela de Flyfishing</h3>
             <img class="escuela__fly--img" src="../imagenes/esc_pesca.jpg" alt="">
-        </div>-->
+        </div>
+        >
         </section>
+            -->
 
     </main>
 
-    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+    <footer class="text-center text-white footer">
 
         <div class="container pt-4">
 
             <section class="mb-4">
 
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.facebook.com/">Facebook</a>
+                <a class="btn btn-link btn-floating btn-lg text-light m-1" href="https://www.facebook.com/">Facebook</a>
 
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.twitter.com/">Twitter</a>
+                <a class="btn btn-link btn-floating btn-lg text-light m-1" href="https://www.twitter.com/">Twitter</a>
 
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com">Instagram</a>
+                <a class="btn btn-link btn-floating btn-lg text-light m-1" href="https://www.instagram.com">Instagram</a>
 
             </section>
 
         </div>
 
-        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div class="text-center text-white p-3">
             © 2021 Copyright
         </div>
 

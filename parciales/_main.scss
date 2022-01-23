@@ -5,12 +5,10 @@
 }
 
 body{
-    background-color: whitesmoke;
+    background: 
+    linear-gradient(rgba(2, 8, 8, 0.3), rgba(2, 8, 8, 0.3)), 
+    url(../imagenes/bg-2.jpg) no-repeat center center fixed;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    max-width: 1920px;
+    
 }  
 
-.main{
-    grid-area: "main";
-    padding: 10px;
-}
