@@ -1,4 +1,43 @@
 @import "./mixin";
+
+
+.main{
+    .general__main{
+
+        .main__articulo{
+            @include bgCard;
+        }
+
+        .main__section{
+    
+            .section__ribbon{
+                @include bgCard;
+                background-image: repeating-linear-gradient(45deg, transparent, transparent, 25px, rgba(14, 78, 52, 0.3) 25px, rgba(14, 78, 52, 0.7) 40px);
+            }
+    
+            .section__cards{
+    
+                .card__pesca{
+                    @include bgCard;                   
+                }
+            
+                .card__flotadas{
+                    @include bgCard;                    
+                }
+            
+                .card__rafting{
+                    @include bgCard;                    
+                }
+            }
+        }
+        
+    }
+}
+
+
+
+
+
 /*
 .main__titulo--grande{
     @include alignContenido (center, 10px, 0px)   
