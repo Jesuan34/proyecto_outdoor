@@ -109,8 +109,9 @@ body {
 }
 
 .nosotros__empresa .nosotros__empresa--titulo, .nosotros__equipo .nosotros__empresa--titulo {
-  color: tomato;
+  color: black;
   margin: 30px;
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .nosotros__empresa .empresa__img, .nosotros__equipo .empresa__img {
@@ -130,25 +131,12 @@ body {
 
 .nosotros__equipo {
   margin: 20px;
-  /*
-        .nosotros__equipo--1{
-            width: 300px;
-            height: 400px;
-        }
-        .nosotros__equipo--2{
-            width: 300px;
-            height: 400px;
-        }
-        .nosotros__equipo--3{
-            width: 300px;
-            height: 400px;
-        }
-        */
 }
 
 .nosotros__equipo .nosotros__equipo--titulo {
-  color: tomato;
+  color: black;
   margin: 30px;
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .nosotros__equipo .todos__nosotros {
