@@ -13,24 +13,24 @@ body {
 }
 
 .main .general__main .main__articulo {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .main .general__main .main__section .section__ribbon {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.4);
   background-image: repeating-linear-gradient(45deg, transparent, transparent, 25px, rgba(14, 78, 52, 0.3) 25px, rgba(14, 78, 52, 0.7) 40px);
 }
 
 .main .general__main .main__section .section__cards .card__pesca {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .main .general__main .main__section .section__cards .card__flotadas {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .main .general__main .main__section .section__cards .card__rafting {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 /*
@@ -77,16 +77,22 @@ body {
     
     */
 .main .main__act .act__articulo .act__ribbon {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.4);
   background-image: repeating-linear-gradient(45deg, transparent, transparent, 25px, rgba(14, 78, 52, 0.3) 25px, rgba(14, 78, 52, 0.7) 40px);
 }
 
 .main .main__act .act__cards .card {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.4);
 }
 
-div #galeria__img img {
-  height: 300px;
+.carousel__img {
+  height: 500px;
+}
+
+@media only screen and (max-width: 427px) {
+  .carousel__img {
+    height: 250px;
+  }
 }
 
 .nosotros__empresa, .nosotros__equipo {
@@ -103,8 +109,9 @@ div #galeria__img img {
 }
 
 .nosotros__empresa .nosotros__empresa--titulo, .nosotros__equipo .nosotros__empresa--titulo {
-  color: tomato;
+  color: black;
   margin: 30px;
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .nosotros__empresa .empresa__img, .nosotros__equipo .empresa__img {
@@ -124,25 +131,12 @@ div #galeria__img img {
 
 .nosotros__equipo {
   margin: 20px;
-  /*
-        .nosotros__equipo--1{
-            width: 300px;
-            height: 400px;
-        }
-        .nosotros__equipo--2{
-            width: 300px;
-            height: 400px;
-        }
-        .nosotros__equipo--3{
-            width: 300px;
-            height: 400px;
-        }
-        */
 }
 
 .nosotros__equipo .nosotros__equipo--titulo {
-  color: tomato;
+  color: black;
   margin: 30px;
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .nosotros__equipo .todos__nosotros {
@@ -156,13 +150,56 @@ div #galeria__img img {
   text-align: justify;
 }
 
-.formulario__contacto {
-  margin: 2rem;
+.contacto__general {
+  background: rgba(2, 8, 8, 0.2);
+  color: white;
 }
 
-.bigicon {
-  font-size: 35px;
-  color: #36A0FF;
+.contacto__general .contacto__info .icono {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacto__general .contacto__form {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.contacto__general .contacto__form .form__imput {
+  padding: 20px;
+}
+
+.contacto__general .contacto__form .inputs input {
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid #eee;
+}
+
+.contacto__general .contacto__form .inputs input:focus {
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid rgba(206, 82, 5, 0.5);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contacto__general .contacto__form .input__txt {
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid #eee;
+  width: 100%;
+  resize: none;
 }
 
 a:link {
@@ -187,11 +224,11 @@ a {
 }
 
 a:hover {
-  background-color: #9999ff;
+  background-color: rgba(206, 82, 5, 0.5);
 }
 
 iframe {
   width: 100%;
-  height: auto;
+  height: 90%;
 }
 /*# sourceMappingURL=main.css.map */
