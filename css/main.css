@@ -114,19 +114,20 @@ body {
   background: rgba(255, 255, 255, 0.4);
 }
 
-.nosotros__empresa .empresa__img, .nosotros__equipo .empresa__img {
-  margin: 20px;
-}
-
-.nosotros__empresa .empresa__img--desc, .nosotros__equipo .empresa__img--desc {
-  text-align: justify;
-  margin: 30px;
-}
-
 .nosotros__empresa .nosotros__empresa--1, .nosotros__equipo .nosotros__empresa--1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.nosotros__empresa .nosotros__empresa--1 .empresa__img, .nosotros__equipo .nosotros__empresa--1 .empresa__img {
+  margin: 20px;
+}
+
+.nosotros__empresa .nosotros__empresa--1 .empresa__img--desc, .nosotros__equipo .nosotros__empresa--1 .empresa__img--desc {
+  text-align: justify;
+  margin: 30px;
+  color: white;
 }
 
 .nosotros__equipo {

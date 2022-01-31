@@ -9,19 +9,22 @@
             @include estiloTitulo;
             @include bgCard;
         }
-        
-        .empresa__img{
-            margin: 20px;
-        }
-        
-        .empresa__img--desc{
-            text-align: justify;
-            margin: 30px;
-        }
-        
+
         .nosotros__empresa--1{
             display: flex;
-        }
+
+            .empresa__img{
+                margin: 20px;
+            }
+            
+            .empresa__img--desc{
+                text-align: justify;
+                margin: 30px;
+                color: white;
+            }
+
+        }        
+        
 }
 
 .nosotros__equipo{
