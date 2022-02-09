@@ -18,11 +18,14 @@
             .section__cards{
     
                 .card__pesca{
-                    @include bgCard;                   
+                    @include bgCard;                       
+                    
                 }
             
                 .card__flotadas{
-                    @include bgCard;                    
+                    @include bgCard;
+
+                    
                 }
             
                 .card__rafting{
@@ -33,6 +36,9 @@
         
     }
 }
+
+
+
 
 
 

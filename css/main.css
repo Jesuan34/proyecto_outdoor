@@ -13,24 +13,24 @@ body {
 }
 
 .main .general__main .main__articulo {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .main .general__main .main__section .section__ribbon {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.7);
   background-image: repeating-linear-gradient(45deg, transparent, transparent, 25px, rgba(14, 78, 52, 0.3) 25px, rgba(14, 78, 52, 0.7) 40px);
 }
 
 .main .general__main .main__section .section__cards .card__pesca {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .main .general__main .main__section .section__cards .card__flotadas {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .main .general__main .main__section .section__cards .card__rafting {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 /*
@@ -77,12 +77,12 @@ body {
     
     */
 .main .main__act .act__articulo .act__ribbon {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.7);
   background-image: repeating-linear-gradient(45deg, transparent, transparent, 25px, rgba(14, 78, 52, 0.3) 25px, rgba(14, 78, 52, 0.7) 40px);
 }
 
 .main .main__act .act__cards .card {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .carousel__img {
@@ -111,7 +111,7 @@ body {
 .nosotros__empresa .nosotros__empresa--titulo, .nosotros__equipo .nosotros__empresa--titulo {
   color: black;
   margin: 30px;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .nosotros__empresa .nosotros__empresa--1, .nosotros__equipo .nosotros__empresa--1 {
@@ -137,7 +137,7 @@ body {
 .nosotros__equipo .nosotros__equipo--titulo {
   color: black;
   margin: 30px;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .nosotros__equipo .todos__nosotros {
@@ -174,7 +174,7 @@ body {
 }
 
 .contacto__general .contacto__form {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .contacto__general .contacto__form .form__imput {
