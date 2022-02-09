@@ -18,7 +18,7 @@
             .section__cards{
     
                 .card__pesca{
-                    @include bgCard;                       
+                    @include bgCard;
                     
                 }
             
@@ -34,6 +34,12 @@
             }
         }
         
+    }
+}
+
+.section__cards{
+    img{
+        @include imgSize
     }
 }
 
