@@ -19,7 +19,7 @@
 }
 
 @mixin bgCard {
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 @mixin bgRepeat {
@@ -28,4 +28,9 @@
 
 @mixin bgColorhover {
     background-color: rgba(153, 153, 255, rgba(206, 82, 5, 0.5));
+}
+
+@mixin imgSize {
+    max-width: 100%;
+    height: 270px;
 }

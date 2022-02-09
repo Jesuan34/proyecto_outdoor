@@ -7,7 +7,7 @@
 
         .nosotros__empresa--titulo{
             @include estiloTitulo;
-            @include bgCard;
+            
         }
 
         .nosotros__empresa--1{
@@ -33,7 +33,7 @@
 
         .nosotros__equipo--titulo{
         @include estiloTitulo;
-        @include bgCard;
+        
         }
         
         .todos__nosotros{
